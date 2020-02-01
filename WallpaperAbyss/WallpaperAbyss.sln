@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WallpaperAbyss", "WallpaperAbyss\WallpaperAbyss.csproj", "{9ACDDE4F-6765-4BCF-9883-404F87629602}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WallpaperAbyssApiV2", "WallpaperAbyssApiV2\WallpaperAbyssApiV2.csproj", "{BC5AE272-B363-44DC-B8DB-66204816B860}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WallpaperAbyssDesktopBackgroundService", "WallpaperAbyssDesktopBackgroundService\WallpaperAbyssDesktopBackgroundService.csproj", "{2247730A-F25A-445D-9B57-F8B00E1A35E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagedWiFi", "ManagedWiFi\ManagedWiFi.csproj", "{06AAB9B2-35B1-4195-AE8C-5649E0CDCF8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WallpaperAbyssSettings", "WallpaperAbyssSettings\WallpaperAbyssSettings.csproj", "{3BDA9DAD-600F-4046-A0F7-C799C22D7256}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9ACDDE4F-6765-4BCF-9883-404F87629602}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ACDDE4F-6765-4BCF-9883-404F87629602}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ACDDE4F-6765-4BCF-9883-404F87629602}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ACDDE4F-6765-4BCF-9883-404F87629602}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC5AE272-B363-44DC-B8DB-66204816B860}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC5AE272-B363-44DC-B8DB-66204816B860}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC5AE272-B363-44DC-B8DB-66204816B860}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC5AE272-B363-44DC-B8DB-66204816B860}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2247730A-F25A-445D-9B57-F8B00E1A35E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2247730A-F25A-445D-9B57-F8B00E1A35E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2247730A-F25A-445D-9B57-F8B00E1A35E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2247730A-F25A-445D-9B57-F8B00E1A35E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06AAB9B2-35B1-4195-AE8C-5649E0CDCF8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06AAB9B2-35B1-4195-AE8C-5649E0CDCF8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06AAB9B2-35B1-4195-AE8C-5649E0CDCF8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06AAB9B2-35B1-4195-AE8C-5649E0CDCF8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BDA9DAD-600F-4046-A0F7-C799C22D7256}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BDA9DAD-600F-4046-A0F7-C799C22D7256}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BDA9DAD-600F-4046-A0F7-C799C22D7256}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BDA9DAD-600F-4046-A0F7-C799C22D7256}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
