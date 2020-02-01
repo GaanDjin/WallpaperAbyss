@@ -17,8 +17,11 @@ There can be an unhealthy delay when the first pic is displayed.
 First download and build the Project (or download the latest version from the Release folder) and copy the four files into your "%SystemRoot%\SysWOW64" folder (Not the System32 folder as it'll just crap out there). 
 
 ManagedWiFi.dll
+
 WallpaperAbyss.scr
+
 WallpaperAbyssApiV2.dll
+
 WallpaperAbyssSettings.dll
 
 ![Install By Copy](Demo/WallpaperAbyss_InstallByCopy.gif)
@@ -59,32 +62,50 @@ You may get an error like in the video complaining about the API key cannot be n
 ### Search Options:
 
 **Search By**: 
+
 *Newest*: Returns the newest images
+
 *Highest Rated*: Returns the images that are highest rated
+
 *By Views*: Returns images with the most views
+
 *By Favorites*: Returns the most favoured images
+
 *Category*: Returns images in a specific category. Based on the item you select on the right-hand list.
+
 *Collection*: Returns images in a specific collection.
+
 *Group*: Returns images in a specific group. (I'm not sure what the diff between group and category is)
+
 *Sub Category*: Subcategory lets you drill down a level from Category and choose something a little more specific. Like Category "Humor" but only show "Bill Murray"
+
 *Featured*: Show images featured on Wallpaper Abyss
+
 *Popular*: Show the most popular images
+
 *User*: Show images based on username
+
 *Search*: Lets you enter a search term to query images
+
 *Random*: You got it. Yup. A random selection of who knows what. But nothing should be NSFW as AlphaCoders stipulates only family friendly images however there are a few in there that are pretty racy. 
 
 
 **Sort By**:
 
 *Newest*: Return results by age. Newest first
+
 *Rating*: Return results with the highest rating
+
 *Views*: Return results based on view count
+
 *Favorites*: Return results by number of people that have favorited the image
 
 **Only show images of size**:
 
 *Equal*: Only fetch images that are exactly the size specified by Width and Height
+
 *Max*: Only fetch images that are no bigger than the size specified by Width and Height
+
 *Min*: Only fetch images that are no smaller than the size specified by Width and Height
 
 **Width**: The width of the images to fetch, 0 means any size / ignore
