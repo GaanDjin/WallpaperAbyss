@@ -1,5 +1,7 @@
 # WallpaperAbyss
-A Screensaver that fetches and displays images from Alpha Coders Wallpaper Abyss
+A Screensaver that fetches and displays images from Alpha Coders Wallpaper Abyss.
+
+When the screen saver is running you can use the arrow keys (Left & Right) to go back and forth between images. Just in case you saw something you liked. Any other key or mouse action closes the screensaver.
 
 Requirements: A [Wallpaper Abyss API Key](https://wall.alphacoders.com/api.php)
 
