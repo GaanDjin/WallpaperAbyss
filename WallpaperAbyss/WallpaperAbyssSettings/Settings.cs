@@ -1,11 +1,8 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Web.Script.Serialization;
 using WallpaperAbyssApiV2;
+using Newtonsoft.Json;
 
 namespace WallpaperAbyssSettings
 {
@@ -351,7 +348,7 @@ namespace WallpaperAbyssSettings
         /// <param name="fileName">Path of save file</param>
         public void Save(string fileName = DEFAULT_FILENAME)
         {
-            File.WriteAllText(fileName, (new JavaScriptSerializer()).Serialize(this));
+            File.WriteAllText(fileName, JsonConvert.SerializeObject(this));
         }
 
         /// <summary>
@@ -362,7 +359,7 @@ namespace WallpaperAbyssSettings
         /// <param name="fileName">Path of save file</param>
         public static void Save(T pSettings, string fileName = DEFAULT_FILENAME)
         {
-            File.WriteAllText(fileName, (new JavaScriptSerializer()).Serialize(pSettings));
+            File.WriteAllText(fileName, JsonConvert.SerializeObject(pSettings));
         }
 
         /// <summary>
@@ -374,7 +371,7 @@ namespace WallpaperAbyssSettings
         {
             T t = new T();
             if (File.Exists(fileName))
-                t = (new JavaScriptSerializer()).Deserialize<T>(File.ReadAllText(fileName));
+                t = JsonConvert.DeserializeObject<T>(File.ReadAllText(fileName));
             return t;
         }
     }
